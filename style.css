@@ -1,0 +1,51 @@
+body {
+    color: rgb(5, 6, 7);
+    background-color: rgb(53, 51, 51);
+    margin: 0px;
+    font-family: "Whereas recognition of the inherent dignity",sans-serif;
+}
+header{
+    font-family: "Whereas recognition of the inherent dignity",sans-serif;
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 32px;
+}
+section{
+    font-family: "Whereas recognition of the inherent dignity",sans-serif;
+    background: rgb(201, 201, 130);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    font-family: "Whereas recognition of the inherent dignity",sans-serif;
+    margin: 5%;
+
+}
+.chamada-video1{
+     margin: 3%; 
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 15px;
+}
+img{
+    height: 200px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+    border: solid 5px whitesmoke;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.video{
+    background-color: brown;
+}
